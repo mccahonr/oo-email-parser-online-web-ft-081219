@@ -9,7 +9,7 @@ class EmailAddressParser
     @emails = emails
   end
 
-  def parser
+  def parse
     @emails = (@emails.spilt(", "))
     @emails
   end
